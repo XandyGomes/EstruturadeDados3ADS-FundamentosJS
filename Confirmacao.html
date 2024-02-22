@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Clique no botão para exibir a caixa de confirmação</h1>
+    <input type="button" value="clique aqui para exibir a soma" onclick="confirmacao()">
+    <h2 id="root"></h2>
+
+    <script>
+        function confirmacao(){
+            var x
+            var r = confirm("Escolha um valor")
+            if( r == true){
+                x = "Você clicou no OK!"
+            } else {
+                x = "Você clicou no Cancelar!"
+            }
+            document.getElementById("root").innerHTML = x
+        }
+    </script>
+</body>
+</html>
