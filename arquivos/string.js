@@ -15,6 +15,10 @@ document.getElementById("root").innerHTML = facul.indexOf("C")
 document.getElementById("root").innerHTML = facul.substring(2)
 document.getElementById("root").innerHTML = facul.substring(1, 4)
 document.getElementById("root").innerHTML = "Faculdade ".concat(facul).concat("!")
+document.getElementById("root").innerHTML = facul.replace("F", 3)
+document.getElementById("root").innerHTML = "Alex,Joao,Pedro".split(",")
+console.log("Alex, Joao, Pedro".split(", "))
+
 
 
 
